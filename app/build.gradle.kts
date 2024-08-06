@@ -8,6 +8,8 @@ plugins {
 
 }
 
+apply(from = "../config/detekt/detekt.gradle")
+
 android {
     namespace = "com.example.marvelapp"
     compileSdk = 34
